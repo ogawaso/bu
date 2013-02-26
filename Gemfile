@@ -7,7 +7,7 @@ def hg(g)
   (ENV['HOME'].gsub('/','') == 'app' ? :test : g)
 end
 
-gem 'rails', '3.2.12'
+gem 'rails', '4.0.0.beta1'
 
 group :preview do
   gem 'pg'
@@ -15,8 +15,8 @@ group :preview do
 end
 
 group :assets do
-  gem 'sass-rails',   '~> 3.2.1'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails',   '~> 4.0.0.beta1'
+  gem 'coffee-rails', '~> 4.0.0.beta1'
   gem 'uglifier', '>= 1.0.3'
 end
 
